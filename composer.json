@@ -1,7 +1,7 @@
 {
   "name": "ajulcab/laravel-asset-manager",
   "description": "Gestionar los assets dentro de laravel",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "keywords": ["Laravel", "assets", "css", "js","ajulcab"],
   "license": "MIT",
   "authors": [
