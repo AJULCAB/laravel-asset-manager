@@ -6,7 +6,7 @@
  * Time: 5:54 PM.
  */
 
-namespace Sudomabider\AssetManager\Tests;
+namespace Ajulcab\AssetManager\Tests;
 
 class ViewTest extends TestCase
 {

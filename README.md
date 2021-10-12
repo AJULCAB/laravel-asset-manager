@@ -3,11 +3,14 @@
 [![Build Status](https://travis-ci.org/travis-ci/travis-web.svg?branch=master)](https://travis-ci.org/travis-ci/travis-web)
 [![StyleCI](https://styleci.io/repos/67490711/shield?branch=master)](https://styleci.io/repos/67490711)
 
+
+Support Laravel 8.
+
 ### Installation
 
-1. Run `composer require sudomabider/laravel-asset-manager`
-2. Add `Sudomabider\AssetManager\AssetManagerServiceProvider::class` to app config `providers` array
-3. Run `php artisan vendor:publish --provider="Sudomabider\AssetManager\AssetManagerServiceProvider" --tag="config"`
+1. Run `composer require ajulcab/laravel-asset-manager`
+2. Add `Ajulcab\AssetManager\AssetManagerServiceProvider::class` to app config `providers` array
+3. Run `php artisan vendor:publish --provider="Ajulcab\AssetManager\AssetManagerServiceProvider" --tag="config"`
 
 ### Configuration
 All the assets are defined as key-value pairs in the `assets` array. The key would then be used in the view files to include the resources, _e.g._ `@css('animate')`.

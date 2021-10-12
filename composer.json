@@ -1,32 +1,30 @@
 {
-  "name": "sudomabider/laravel-asset-manager",
-  "description": "Allows for assets like js and css to be easily managed and called in Laravel",
-  "version": "0.1.5",
-  "keywords": ["Laravel", "assets", "css", "js"],
+  "name": "ajulcab/laravel-asset-manager",
+  "description": "Gestionar los assets dentro de laravel",
+  "version": "1.0.0",
+  "keywords": ["Laravel", "assets", "css", "js","ajulcab"],
   "license": "MIT",
   "authors": [
     {
-      "name": "Veo Chen",
-      "email": "sudomabider@sudo.team"
+      "name": "Ahiezer Julca",
+      "email": "julca.blas@gmail.com"
     }
   ],
   "require": {
-    "php": ">=5.4",
+    "php": "^7.3|^8.0",
     "illuminate/view": "5.*"
   },
   "require-dev": {
-    "fzaninotto/faker": "^1.6",
-    "orchestra/testbench": "3.3.3|~3.4.0",
-    "phpunit/phpunit": "^5.2"
+    "phpunit/phpunit": "^9.3.3"
   },
   "autoload": {
     "psr-4": {
-      "Sudomabider\\AssetManager\\": "src"
+      "Ajulcab\\AssetManager\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Sudomabider\\AssetManager\\Tests\\": "tests"
+      "Ajulcab\\AssetManager\\Tests\\": "tests"
     }
   }
 }

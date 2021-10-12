@@ -6,7 +6,7 @@
  * Time: 10:21 PM.
  */
 
-namespace Sudomabider\AssetManager;
+namespace Ajulcab\AssetManager;
 
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider;

@@ -6,7 +6,7 @@
  * Time: 4:53 PM.
  */
 
-namespace Sudomabider\AssetManager;
+namespace Ajulcab\AssetManager;
 
 class AssetManager
 {

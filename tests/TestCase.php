@@ -6,10 +6,10 @@
  * Time: 5:51 PM.
  */
 
-namespace Sudomabider\AssetManager\Tests;
+namespace Ajulcab\AssetManager\Tests;
 
 use Orchestra\Testbench\TestCase as BaseTestCase;
-use Sudomabider\AssetManager\AssetManagerServiceProvider;
+use Ajulcab\AssetManager\AssetManagerServiceProvider;
 
 class TestCase extends BaseTestCase
 {

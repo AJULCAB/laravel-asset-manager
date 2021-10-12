@@ -5,6 +5,10 @@ php:
   - '5.6'
   - '7.0'
   - '7.1'
+  - '7.2'
+  - '7.3'
+  - '7.4'
+  - '8.0'
   - hhvm
 
 cache:
@@ -14,6 +18,9 @@ cache:
 env:
   - LARAVEL_VERSION="5.3.*"
   - LARAVEL_VERSION="5.4.*"
+  - LARAVEL_VERSION="6.*"
+  - LARAVEL_VERSION="7.*"
+  - LARAVEL_VERSION="8.*"
 
 matrix:
   fast_finish: true
