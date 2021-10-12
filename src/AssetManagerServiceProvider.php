@@ -10,6 +10,8 @@ namespace Ajulcab\AssetManager;
 
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider;
+use Illuminate\Support\Str;
+
 
 class AssetManagerServiceProvider extends ServiceProvider
 {
@@ -44,7 +46,7 @@ class AssetManagerServiceProvider extends ServiceProvider
      */
     protected function parseExpression($expression)
     {
-        if (starts_with($expression, '(')) {
+        if (Str::startsWith($expression, '(')) {
             $expression = substr($expression, 1, -1);
         }
 
